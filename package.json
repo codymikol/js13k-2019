@@ -1,0 +1,13 @@
+{
+  "name": "js13k-2019",
+  "version": "1.0.0",
+  "description": "Our entry for the js13k competition",
+  "main": "index.js",
+  "repository": "github.com/codymikol/js13k-2019",
+  "author": "Cody Mikol <codymikol@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "game-kiln": "^0.2.1"
+  }
+}
