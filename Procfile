@@ -1,1 +1,1 @@
-web: yarn; webpack --config ./webpack.prd.config.js node server.js;
+web: yarn; webpack --config ./webpack.prd.config.js; node server.js;
