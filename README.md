@@ -16,6 +16,10 @@ Five levels of gameplay that feature increasingly challenging "Monkey Island" st
 
 The first level will be a very small empty room with a guard standing at the end of the room. There is a large sword mounted on the opposite wall. The user is initially presented with two options.
 
+##### The Guard
+
+![alt text](/imgs/guard_1_inspro.png "Logo Title Text 1")
+
 #### 1. Talk to the Guard.
 
 If the user chooses to talk to the guard they will be presented with the option to pay for entry to the next level or they can refuse.
@@ -49,6 +53,20 @@ TBD
 ## Level Five
 
 TBD
+
+Color Palette
+![alt text](/imgs/palette.png "Logo Title Text 1")
+
+\#9E97FF
+
+\#89E8D2
+
+\#E8FFA3
+
+\#E8C089
+
+\#FF96C4
+
 
 # Things TODO:
 
