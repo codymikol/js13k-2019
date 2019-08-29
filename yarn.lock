@@ -1938,10 +1938,10 @@ function-bind@^1.1.1:
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
 
-game-kiln@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/game-kiln/-/game-kiln-0.3.1.tgz#c92271825fa798d84f87aa0aeb9c668c1f86aed5"
-  integrity sha512-VWAkuUkAPOjb3dIPeNASwgI3O6n4AeYmDftqNZmXq2HHc2eomBZHhGW8XxJMUvRRvsHQBwOKbBJE9INgK290/Q==
+game-kiln@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/game-kiln/-/game-kiln-0.4.1.tgz#1eeef34126af6baa07f6657e91774b55aac1e899"
+  integrity sha512-coQpw9I0jYrBMSqY3xsdytzEDSqCmbCF+ZGBFTcoYpKjL11x7hoJl2o1pxLm4oSPf/468XiSvou6RsrU7S/tGg==
   dependencies:
     lodash "^4.17.11"
 

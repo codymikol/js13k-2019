@@ -12,7 +12,7 @@
     "build:dev": "webpack --config ./webpack.dev.config.js"
   },
   "dependencies": {
-    "game-kiln": "0.3.1",
+    "game-kiln": "0.4.1",
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
