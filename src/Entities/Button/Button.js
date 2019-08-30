@@ -12,8 +12,8 @@ export default class Button extends KEntity {
         this.text = text;
 
         this.onRender = function () {
-            this.brush.square(this.x, this.y, this.width, this.height, 'red');
-            this.brush.text(this.text, this.x + 5, this.y + 28)
+            this.brush.square(this.x, this.y, this.width, this.height, '#89E8D2');
+            this.brush.text(this.text, this.x + 5, this.y + 28, 'black')
         };
 
     }
