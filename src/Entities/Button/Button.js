@@ -16,8 +16,6 @@ export default class Button extends KEntity {
             this.brush.text(this.text, this.x + 5, this.y + 28)
         };
 
-
-
     }
 
 }
