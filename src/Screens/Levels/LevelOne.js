@@ -1,6 +1,6 @@
 import {KScreen} from "game-kiln";
-import Character from "../../Entities/Character/Character";
 import TopBar from "../../Entities/TopBar/TopBar";
+import Menu from "../../Entities/Menu/Menu";
 
 export default class LevelOne extends KScreen {
 
@@ -10,6 +10,7 @@ export default class LevelOne extends KScreen {
 
     onCreate() {
         this.add(new TopBar());
+        this.add(new Menu())
     }
 
 }
