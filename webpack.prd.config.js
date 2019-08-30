@@ -16,6 +16,7 @@ module.exports = {
             {
                 test: /\.m?js$/,
                 exclude: /(node_modules)/,
+                include: /(node_modules\/game-kiln)/,
                 use: {
                     loader: 'babel-loader',
                     options: {
