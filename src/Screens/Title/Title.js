@@ -1,7 +1,9 @@
-import { KScreen, KGame } from "game-kiln";
+import {KScreen, KGame, KDraw} from "game-kiln";
 import Button from "../../Entities/Button/Button";
 import LevelOne from "../Levels/LevelOne";
 import Credits from "../Credits/Credits";
+import Background from "../Background/Background";
+import OutsideGround from "../../Entities/Ground/OutsideGround";
 
 export default class Title extends KScreen {
 
@@ -11,6 +13,9 @@ export default class Title extends KScreen {
     }
 
     onCreate() {
+        this.background = new Background();
+        this.add(this.background);
+        this.add(new OutsideGround())
         this.add(new Button(10, 50, 40, 200, () => KGame('game').setScreen(new LevelOne()), 'Start'));
         this.add(new Button(10, 100, 40, 200, () => KGame('game').setScreen(new Credits()),  'Credits'));
     }
